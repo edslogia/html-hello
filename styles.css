@@ -1,0 +1,68 @@
+/** {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+body {    
+    background-color: rgb(219, 219, 219);
+    font-family: "Tektur", sans-serif;    
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.box-body {
+    margin-left: 20%;
+    margin-right: 20%;   
+    margin-bottom: 20px;   
+    border:2px solid rgb(129, 129, 129) ;    
+    border-radius: 15px 15px 15px 15px; 
+    background-color: white;
+    overflow: hidden;
+}
+
+.header-feed {
+    display:flex;
+    justify-content:  space-between;
+    background-color: rgb(129, 129, 129);
+}
+
+h2, h3 {
+    margin: 5px;     
+}
+
+h2::before {
+    content: " 📷 ";    
+} 
+h3::before {
+    content: " 🗓️ ";
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+img {
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;
+    object-position: center; 
+}
+
+.footer-feed {
+    margin: 0% 5% 2% 5% ;
+}
